@@ -1,6 +1,7 @@
 *{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 body{
     background: url(img/bg.png);
@@ -11,7 +12,6 @@ body{
 .container{
     width: 1700px;
     margin: 0 auto;
-    border: solid;
     align-items: center; 
     position: relative;
     height:100vh;
@@ -24,7 +24,6 @@ body{
     display: flex;
     justify-content: left;
     align-items: center; 
-    height: 200px;
 }
 .header h1{
     margin-left: 75px;
@@ -44,22 +43,25 @@ body{
 .con{
     height: 700px;
     position: relative;
-    top: 150px;
+    top: 290px;
 }
 .info{
     position: relative;
-    top: 100px;
+    top: 50px;
     width: 680px;
     left: 80px;
+   
 }
 .info h1{
-    font-size: 105px;
+    font-size: 100px;
+    letter-spacing: 1.5px;
 }
 .paragraph p{
-    font-size: 40px;
-    line-height: 1.3;
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 1.5;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 .paragraph{
@@ -77,4 +79,22 @@ body{
 .image img{
     width: 1030px;
     height: 700px;
+}
+
+.button{
+    position: relative;
+    bottom: 98%;
+    left: 80px;
+    
+}
+
+.button button{
+    color: rgb(41, 3, 71);
+    width: 240px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-style: none;
+    height: 50px;
 }
