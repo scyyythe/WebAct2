@@ -10,7 +10,7 @@ body{
     background-attachment: fixed;
 }
 .container{
-    width: 1700px;
+    max-width: 1700px;
     margin: 0 auto;
     align-items: center; 
     position: relative;
