@@ -101,4 +101,9 @@ body{
     letter-spacing: 2px;
     border-style: none;
     height: 50px;
+    transition: .5s ease;
+}
+.button button:hover{
+    color: white;
+    background-color: rgba(178, 123, 230, 0.658) ;
 }
