@@ -8,12 +8,14 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
 }
 .container{
     max-width: 1700px;
     margin: 0 auto;
     align-items: center; 
     position: relative;
+
 }
 
 .header{
@@ -107,3 +109,75 @@ body{
     color: white;
     background-color: rgba(178, 123, 230, 0.658) ;
 }
+
+/* laptop */
+@media only screen and (max-width: 1400px){
+    .container{
+        margin: 0 auto;
+    }
+    body{
+        background: url(img/background.png);
+        background-size: cover;
+        background-position: center;
+            background-attachment: fixed;
+    }
+    
+    .header{
+        top: 30px;
+    }
+    .header h1{
+        font-size: 20px;
+    }
+
+    .navbar a{
+        font-size: 15px;
+        margin-left: 180px;
+    }
+
+    .navbar{
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .con{
+        position: relative;
+        top: 0px;
+    }
+    .info{
+        width: 500px;
+        top: 200px;
+    }
+
+    .info h1{
+        font-size: 60px;
+        letter-spacing: 2;
+    }
+    .paragraph p{
+        line-height: 2;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .button{
+        bottom: 300px;
+    }
+
+    .button button{
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .image{
+        position: relative;
+        height: 450px;
+        width: 600px;
+        bottom: 200px;
+        left: 550px;
+    }
+    .image img{
+        width: 750px;
+        height: 500px;
+        
+    }
+} 
